@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F7F7F7;
 }
 
 code {
@@ -17,6 +18,9 @@ code {
   font-size: 6rem;
 }
 .new-navbar{
+  position: absolute;
+  width:100%;
+  top:20%;
   background-color: aquamarine;
 }
 .navbar-list{
@@ -33,7 +37,7 @@ code {
   gap:10px;
 }
 .rside{
-  padding:20px 5px;
+  padding:20px 10px;
 }
 .line{
   height:0;
