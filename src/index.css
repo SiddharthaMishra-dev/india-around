@@ -17,11 +17,21 @@ code {
   text-align: center;
   font-size: 6rem;
 }
+
+@keyframes navbarcolor {
+  0% {background-color: rgb(127, 50, 212);}
+  25% {background-color: rgb(127, 100, 212);}
+  50%{background-color: rgb(127, 150, 212);}
+  75%{background-color: rgb(127, 200, 212);}
+  100%{background-color: aquamarine;}
+}
 .new-navbar{
   position: absolute;
   width:100%;
   top:20%;
-  background-color: aquamarine;
+  animation-name: navbarcolor;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 .navbar-list{
   margin:0 auto;
