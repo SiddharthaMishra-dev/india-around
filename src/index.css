@@ -26,12 +26,11 @@ code {
   100%{background-color: aquamarine;}
 }
 .new-navbar{
-  position: absolute;
-  width:100%;
-  top:20%;
   animation-name: navbarcolor;
   animation-duration: 10s;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
 .navbar-list{
   margin:0 auto;
