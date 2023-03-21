@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -18,15 +21,16 @@ code {
   font-size: 6rem;
 }
 
-@keyframes navbarcolor {
+/* @keyframes navbarcolor {
   0% {background-color: rgb(127, 50, 212);}
   25% {background-color: rgb(127, 100, 212);}
   50%{background-color: rgb(127, 150, 212);}
   75%{background-color: rgb(127, 200, 212);}
   100%{background-color: aquamarine;}
-}
+} */
 .new-navbar{
   animation-name: navbarcolor;
+  margin-bottom: 2%;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -37,7 +41,7 @@ code {
   display:flex;
   gap:20px;
   list-style: none;
-  justify-content: center;
+  justify-content:center;
 }
 
 .article{
@@ -73,4 +77,15 @@ a:active{
 .center{
   margin:0 auto;
   font-weight: bold;
+}
+.tab{
+  border-radius:2px;
+  margin:0;
+  padding:10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
+  background-color: #19A7CE;
+  color:#F7F7F7
+}
+.tab:hover{
+  transition: all 2ms linear;
 }
